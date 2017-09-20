@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD836E11CF311B300A5809B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD836E01CF311B300A5809B /* AppDelegate.swift */; };
+		9AD836E31CF311B300A5809B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD836E21CF311B300A5809B /* ViewController.swift */; };
+		9AD836E61CF311B300A5809B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD836E41CF311B300A5809B /* Main.storyboard */; };
+		9AD836E81CF311B300A5809B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD836E71CF311B300A5809B /* Assets.xcassets */; };
+		9AD836EB1CF311B300A5809B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD836E91CF311B300A5809B /* LaunchScreen.storyboard */; };
+		9AD836F61CF311B300A5809B /* SalaryCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD836F51CF311B300A5809B /* SalaryCalcTests.swift */; };
+		9AD837011CF311B300A5809B /* SalaryCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD837001CF311B300A5809B /* SalaryCalcUITests.swift */; };
+		9AD837151CF31DE000A5809B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD837141CF31DE000A5809B /* Model.swift */; };
+		9AD837171CF3218700A5809B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD837161CF3218700A5809B /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD836F21CF311B300A5809B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD836D51CF311B300A5809B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD836DC1CF311B300A5809B;
+			remoteInfo = SalaryCalc;
+		};
+		9AD836FD1CF311B300A5809B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD836D51CF311B300A5809B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD836DC1CF311B300A5809B;
+			remoteInfo = SalaryCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AD836DD1CF311B300A5809B /* SalaryCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD836E01CF311B300A5809B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD836E21CF311B300A5809B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD836E51CF311B300A5809B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD836E71CF311B300A5809B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD836EA1CF311B300A5809B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD836EC1CF311B300A5809B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD836F11CF311B300A5809B /* SalaryCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD836F51CF311B300A5809B /* SalaryCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalcTests.swift; sourceTree = "<group>"; };
+		9AD836F71CF311B300A5809B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD836FC1CF311B300A5809B /* SalaryCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD837001CF311B300A5809B /* SalaryCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalcUITests.swift; sourceTree = "<group>"; };
+		9AD837021CF311B300A5809B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD837141CF31DE000A5809B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9AD837161CF3218700A5809B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD836DA1CF311B300A5809B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836EE1CF311B300A5809B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836F91CF311B300A5809B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD836D41CF311B300A5809B = {
+			isa = PBXGroup;
+			children = (
+				9AD836DF1CF311B300A5809B /* SalaryCalc */,
+				9AD836F41CF311B300A5809B /* SalaryCalcTests */,
+				9AD836FF1CF311B300A5809B /* SalaryCalcUITests */,
+				9AD836DE1CF311B300A5809B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD836DE1CF311B300A5809B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD836DD1CF311B300A5809B /* SalaryCalc.app */,
+				9AD836F11CF311B300A5809B /* SalaryCalcTests.xctest */,
+				9AD836FC1CF311B300A5809B /* SalaryCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD836DF1CF311B300A5809B /* SalaryCalc */ = {
+			isa = PBXGroup;
+			children = (
+				9AD837101CF311FD00A5809B /* Controller */,
+				9AD8370F1CF311F800A5809B /* View */,
+				9AD8370E1CF311F200A5809B /* Model */,
+				9AD837111CF3126800A5809B /* Supporting Files */,
+			);
+			path = SalaryCalc;
+			sourceTree = "<group>";
+		};
+		9AD836F41CF311B300A5809B /* SalaryCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD836F51CF311B300A5809B /* SalaryCalcTests.swift */,
+				9AD836F71CF311B300A5809B /* Info.plist */,
+			);
+			path = SalaryCalcTests;
+			sourceTree = "<group>";
+		};
+		9AD836FF1CF311B300A5809B /* SalaryCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD837001CF311B300A5809B /* SalaryCalcUITests.swift */,
+				9AD837021CF311B300A5809B /* Info.plist */,
+			);
+			path = SalaryCalcUITests;
+			sourceTree = "<group>";
+		};
+		9AD8370E1CF311F200A5809B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AD837141CF31DE000A5809B /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9AD8370F1CF311F800A5809B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AD836E71CF311B300A5809B /* Assets.xcassets */,
+				9AD836E91CF311B300A5809B /* LaunchScreen.storyboard */,
+				9AD836E41CF311B300A5809B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9AD837101CF311FD00A5809B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9AD836E21CF311B300A5809B /* ViewController.swift */,
+				9AD837161CF3218700A5809B /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9AD837111CF3126800A5809B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD836EC1CF311B300A5809B /* Info.plist */,
+				9AD836E01CF311B300A5809B /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD836DC1CF311B300A5809B /* SalaryCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD837051CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalc" */;
+			buildPhases = (
+				9AD836D91CF311B300A5809B /* Sources */,
+				9AD836DA1CF311B300A5809B /* Frameworks */,
+				9AD836DB1CF311B300A5809B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalaryCalc;
+			productName = SalaryCalc;
+			productReference = 9AD836DD1CF311B300A5809B /* SalaryCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD836F01CF311B300A5809B /* SalaryCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD837081CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalcTests" */;
+			buildPhases = (
+				9AD836ED1CF311B300A5809B /* Sources */,
+				9AD836EE1CF311B300A5809B /* Frameworks */,
+				9AD836EF1CF311B300A5809B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD836F31CF311B300A5809B /* PBXTargetDependency */,
+			);
+			name = SalaryCalcTests;
+			productName = SalaryCalcTests;
+			productReference = 9AD836F11CF311B300A5809B /* SalaryCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD836FB1CF311B300A5809B /* SalaryCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD8370B1CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalcUITests" */;
+			buildPhases = (
+				9AD836F81CF311B300A5809B /* Sources */,
+				9AD836F91CF311B300A5809B /* Frameworks */,
+				9AD836FA1CF311B300A5809B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD836FE1CF311B300A5809B /* PBXTargetDependency */,
+			);
+			name = SalaryCalcUITests;
+			productName = SalaryCalcUITests;
+			productReference = 9AD836FC1CF311B300A5809B /* SalaryCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD836D51CF311B300A5809B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pawel Furtek";
+				TargetAttributes = {
+					9AD836DC1CF311B300A5809B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C7JP59P2CX;
+					};
+					9AD836F01CF311B300A5809B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9AD836DC1CF311B300A5809B;
+					};
+					9AD836FB1CF311B300A5809B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9AD836DC1CF311B300A5809B;
+					};
+				};
+			};
+			buildConfigurationList = 9AD836D81CF311B300A5809B /* Build configuration list for PBXProject "SalaryCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD836D41CF311B300A5809B;
+			productRefGroup = 9AD836DE1CF311B300A5809B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD836DC1CF311B300A5809B /* SalaryCalc */,
+				9AD836F01CF311B300A5809B /* SalaryCalcTests */,
+				9AD836FB1CF311B300A5809B /* SalaryCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD836DB1CF311B300A5809B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD836EB1CF311B300A5809B /* LaunchScreen.storyboard in Resources */,
+				9AD836E81CF311B300A5809B /* Assets.xcassets in Resources */,
+				9AD836E61CF311B300A5809B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836EF1CF311B300A5809B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836FA1CF311B300A5809B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD836D91CF311B300A5809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD837151CF31DE000A5809B /* Model.swift in Sources */,
+				9AD836E31CF311B300A5809B /* ViewController.swift in Sources */,
+				9AD836E11CF311B300A5809B /* AppDelegate.swift in Sources */,
+				9AD837171CF3218700A5809B /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836ED1CF311B300A5809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD836F61CF311B300A5809B /* SalaryCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD836F81CF311B300A5809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD837011CF311B300A5809B /* SalaryCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD836F31CF311B300A5809B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD836DC1CF311B300A5809B /* SalaryCalc */;
+			targetProxy = 9AD836F21CF311B300A5809B /* PBXContainerItemProxy */;
+		};
+		9AD836FE1CF311B300A5809B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD836DC1CF311B300A5809B /* SalaryCalc */;
+			targetProxy = 9AD836FD1CF311B300A5809B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD836E41CF311B300A5809B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD836E51CF311B300A5809B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD836E91CF311B300A5809B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD836EA1CF311B300A5809B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD837031CF311B300A5809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD837041CF311B300A5809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD837061CF311B300A5809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalaryCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AD837071CF311B300A5809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SalaryCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AD837091CF311B300A5809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalaryCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryCalc.app/SalaryCalc";
+			};
+			name = Debug;
+		};
+		9AD8370A1CF311B300A5809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SalaryCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryCalc.app/SalaryCalc";
+			};
+			name = Release;
+		};
+		9AD8370C1CF311B300A5809B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalaryCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalaryCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9AD8370D1CF311B300A5809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SalaryCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.SalaryCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SalaryCalc;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD836D81CF311B300A5809B /* Build configuration list for PBXProject "SalaryCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD837031CF311B300A5809B /* Debug */,
+				9AD837041CF311B300A5809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD837051CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD837061CF311B300A5809B /* Debug */,
+				9AD837071CF311B300A5809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AD837081CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD837091CF311B300A5809B /* Debug */,
+				9AD8370A1CF311B300A5809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AD8370B1CF311B300A5809B /* Build configuration list for PBXNativeTarget "SalaryCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD8370C1CF311B300A5809B /* Debug */,
+				9AD8370D1CF311B300A5809B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD836D51CF311B300A5809B /* Project object */;
+}
